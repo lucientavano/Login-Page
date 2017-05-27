@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,23 +11,36 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
     
-    <div class="container-fluid">
+  <body class="signin-body">
+    
+    <div class="container signin-container">
         <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-6"></div>
-                    <div class="col-2"></div>
-                    <div class="col-4"></div>
+            <div class="col"></div>
+            <div class="col-sm-12 col-md-8">
+                <div class="card signin-card">
+                    <div class="card-block">
+                        <img src="assets/FunProjectLogo400px.png" class="img-fluid signin-img">
+                        <form class="signin-form">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                            </div>
+                            <button type="button" class="btn signin-btn btn-lg">Sign In</button>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox"> Remember me
+                                    <a href="#"> Need Help?</a>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+                <a href="#" class="create-new-account">Create New Account</a>
             </div>
-            <div class="col-6"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-lg-4">Col 3</div>
-            <div class="col-sm-6 col-lg-4">Col 4</div>
-            <div class="col-sm-12 col-lg-4">Col 5</div>
+            <div class="col"></div>
         </div>
     </div>
 
